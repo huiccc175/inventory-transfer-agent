@@ -1,0 +1,11 @@
+{
+  "sku": "SKU-8821",
+  "fromWarehouse": "上海仓",
+  "toWarehouse": "广州仓",
+  "qty": 30,
+  "steps": [
+    {"stepId": "validate", "type": "VALIDATE_TRANSFER"},
+    {"stepId": "reserve", "type": "RESERVE_INVENTORY"},
+    {"stepId": "record", "type": "RECORD_TRANSFER"}
+  ]
+}
